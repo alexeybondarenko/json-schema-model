@@ -1,6 +1,6 @@
 {
   "name": "json-schema-model",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Parser and compiler for JS models by JSON schema.",
   "main": "lib/json-schema-model.js",
   "devDependencies": {
