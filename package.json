@@ -3,7 +3,9 @@
   "version": "1.0.1",
   "description": "Parser and compiler for JS models by JSON schema.",
   "main": "lib/json-schema-model.js",
-  "dependencies": {},
+  "dependencies": {
+    "gulp-gh-pages": "0.5.4"
+  },
   "devDependencies": {
     "babel": "6.3.13",
     "babel-core": "6.1.18",
