@@ -6,3 +6,7 @@ git:
 notifications:
   email: false
 before_deploy: npm run build
+
+cache:
+  directories:
+    - node_modules
