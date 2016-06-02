@@ -1,5 +1,5 @@
 
-export default class SchemaModel {
+export default class JsonSchemaModel {
 
   constructor(schemaObj) {
 

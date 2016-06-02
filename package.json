@@ -1,8 +1,8 @@
 {
-  "name": "schema-model",
+  "name": "json-schema-model",
   "version": "1.0.0",
   "description": "Parser and compiler for JS models by JSON schema.",
-  "main": "lib/schema-model.js",
+  "main": "lib/json-schema-model.js",
   "dependencies": {},
   "devDependencies": {
     "babel": "6.3.13",

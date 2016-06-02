@@ -1,5 +1,5 @@
 import chai from 'chai';
-import SchemaModel from '../lib/schema-model';
+import JsonSchemaModel from '../lib/json-schema-model';
 
 chai.expect();
 
@@ -19,7 +19,7 @@ var testData = {
 describe('Given an instance of SchemaModel', function () {
 
   beforeEach(function () {
-    schemaModel = new SchemaModel(schema);
+    schemaModel = new JsonSchemaModel(schema);
   });
   describe('when I need the schema', function () {
     it('should return the object', () => {

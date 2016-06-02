@@ -16,7 +16,7 @@ npm i json-schema-model --save
 
 function User (obj) {
   
-  SchemaModel.call(this, {
+  JsonSchemaModel.call(this, {
     firstName: 'first_name',
     lastName: 'last_name',
     middleName: 'middle_name'
