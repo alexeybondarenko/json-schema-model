@@ -1,16 +1,18 @@
-# Schema Model [![](https://travis-ci.org/alexeybondarenko/schema-model.svg)](https://travis-ci.org/alexeybondarenko/schema-model)
+# JSON Schema Model [![](https://travis-ci.org/alexeybondarenko/schema-model.svg)](https://travis-ci.org/alexeybondarenko/schema-model)
 
 Parser and compiler for JS models by JSON schema. 
 
 ## Installation
 
-```
-bower i schema-model --save
+```sh
+bower i json-schema-model --save
+# or
+npm i json-schema-model --save
 ```
 
 ## Usage
 
-```
+```js
 
 function User (obj) {
   
