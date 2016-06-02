@@ -1,4 +1,4 @@
-# Schema Model !(https://travis-ci.org/alexeybondarenko/schema-model.svg)
+# Schema Model ![](https://travis-ci.org/alexeybondarenko/schema-model.svg)
 
 Parser and compiler for JS models by JSON schema. 
 
