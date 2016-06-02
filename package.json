@@ -30,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexeybondarenko/schema-model.git"
+    "url": "git+https://github.com/alexeybondarenko/json-schema-model.git"
   },
   "keywords": [
     "parser",
@@ -45,7 +45,7 @@
   "author": "Alexey Bondarenko <alexeybondarenko@me.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alexeybondarenko/schema-model/issues"
+    "url": "https://github.com/alexeybondarenko/json-schema-model/issues"
   },
-  "homepage": "https://github.com/alexeybondarenko/schema-model#readme"
+  "homepage": "https://github.com/alexeybondarenko/json-schema-model#readme"
 }
