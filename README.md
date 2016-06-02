@@ -48,7 +48,7 @@ function User (obj) {
 
 ## Credits
 
-Author: Alexey Bondarenko <bondalex.com>
+Author: Alexey Bondarenko [bondalex.com](bondalex.com)
 
 ## License
 
