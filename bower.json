@@ -1,0 +1,27 @@
+{
+  "name": "json-schema-model",
+  "description": "Parser and compiler for JS models by JSON schema.",
+  "main": "lib/json-schema-model.js",
+  "authors": [
+    "Alexey Bondarenko <alexeybondarenko@me.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "parser",
+    "compiler",
+    "js",
+    "model",
+    "active",
+    "record",
+    "json",
+    "schema"
+  ],
+  "homepage": "https://github.com/alexeybondarenko/json-schema-model",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
