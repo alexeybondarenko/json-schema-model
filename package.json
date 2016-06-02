@@ -1,6 +1,6 @@
 {
   "name": "json-schema-model",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parser and compiler for JS models by JSON schema.",
   "main": "lib/json-schema-model.js",
   "dependencies": {},
@@ -12,9 +12,17 @@
     "babel-plugin-add-module-exports": "0.1.2",
     "babel-preset-es2015": "6.3.13",
     "chai": "3.4.1",
+    "conventional-github-releaser": "1.1.2",
     "eslint": "1.7.2",
     "eslint-loader": "1.1.0",
+    "fs": "0.0.2",
+    "gulp": "3.9.1",
+    "gulp-bump": "2.1.0",
+    "gulp-conventional-changelog": "1.1.0",
+    "gulp-git": "1.7.2",
+    "gulp-util": "3.0.7",
     "mocha": "2.3.4",
+    "run-sequence": "1.2.1",
     "webpack": "1.12.9",
     "yargs": "4.7.1"
   },
@@ -22,9 +30,7 @@
     "build": "webpack --mode=build",
     "build-dev": "webpack --mode=dev",
     "dev": "webpack --progress --colors --watch --mode=dev",
-
     "test-watch": "mocha --compilers js:babel-core/register --colors -w ./test/*.spec.js",
-
     "pretest": "npm run build-dev",
     "test": "mocha --compilers js:babel-core/register --colors ./test/*.spec.js"
   },
