@@ -34,7 +34,10 @@
     "dev": "webpack --progress --colors --watch --mode=dev",
     "test-watch": "mocha --compilers js:babel-core/register --colors -w ./test/*.spec.js",
     "pretest": "npm run build-dev",
-    "test": "mocha --compilers js:babel-core/register --colors ./test/*.spec.js"
+    "test": "mocha --compilers js:babel-core/register --colors ./test/*.spec.js",
+
+    "prerelease": "npm test",
+    "release": "npm run build"
   },
   "repository": {
     "type": "git",
