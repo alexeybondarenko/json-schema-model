@@ -1,0 +1,31 @@
+{
+  "name": "schema-model",
+  "version": "1.0.0",
+  "description": "Parser and compiler for JS models by JSON schema.",
+  "main": "schema-model.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexeybondarenko/schema-model.git"
+  },
+  "keywords": [
+    "parser",
+    "compiler",
+    "js",
+    "model",
+    "active",
+    "record",
+    "json",
+    "schema"
+  ],
+  "author": "Alexey Bondarenko <alexeybondarenko@me.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexeybondarenko/schema-model/issues"
+  },
+  "homepage": "https://github.com/alexeybondarenko/schema-model#readme"
+}
