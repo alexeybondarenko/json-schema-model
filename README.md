@@ -1,14 +1,38 @@
-# Project Name
+# Schema Model
 
-TODO: Write a project description
+Parser and compiler for JS models by JSON schema. 
 
 ## Installation
 
-TODO: Describe the installation process
+```
+bower i schema-model --save
+```
 
 ## Usage
 
-TODO: Write usage instructions
+```
+
+function User (obj) {
+  
+  SchemaModel.call(this, {
+    firstName: 'first_name',
+    lastName: 'last_name',
+    middleName: 'middle_name'
+  });
+  
+  this.fromSchema(obj);
+}
+```
+
+## Methods
+
+`fromSchema` - parse data by the schema object.
+
+`toSchema` - convert data to the schema object.
+
+## Properties
+
+`schema` - schema object
 
 ## Contributing
 
@@ -20,12 +44,12 @@ TODO: Write usage instructions
 
 ## History
 
-TODO: Write history
+2.06.16 Initial config
 
 ## Credits
 
-TODO: Write credits
+Author: Alexey Bondarenko <bondalex.com>
 
 ## License
 
-TODO: Write license
+MIT
