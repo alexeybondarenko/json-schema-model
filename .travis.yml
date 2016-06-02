@@ -1,8 +1,16 @@
 language: node_js
 node_js:
-  - '4.0'
+- '4.0'
 git:
   depth: 9999999
-
 notifications:
   email: false
+before_deploy: npm run build
+deploy:
+  provider: npm
+  email: alexeybondarenko@me.com
+  api_key:
+    secure: es/LwKYb32jzzMIyb4WXnvfwfhO64LqWAFpaIw/ILTlsn7L4FPC892v2JJ475pgDfrGM4hmqDryafeoNQDBn1ogzFc+QH6aaSwKzW4Xqiw7j4CHIdhzgVYfh2BZKRxYzQnNIAOWCBqSHE+P2zzRe+gY5Y5BuAAYhUjahaFnyXDDDrLitPn/XzpuOFyHzBaTKH+g+UAYKZUSMLBsZo0kE9yfjKx60zoSkN22VqJUvhWCGmKrBrkszKU4lkFTPmd8aruOClzlZpQDL6WBkdInznPqXpm6Tj72qQazfAuxgr/1FLZ3dP+gSuJYUucin2ui7os5Dl9tM8Rw6FhZz+hTEorxW9LdVV/J7KIB+xgJtDx1sA6bU2w+gVl0faakl7/M//gYJ5azdwBwGCcD0V95F2TeMTQtBLC2IeLcK6sQv/kucezGoWL3xaHagHbKum5K1WDrufRwr2vKhdp1BdBcXwB5at1bmrPZb27CT8q8bD4xWRtBOUImmqOnBKPffrxjq0wERL74DaG1p/Rs0SMomGTEBHt00DEjfYD3JBj3YKhN90gz6o+qthuQTCJJyFkGZUA8qLnDYUz5aFr+LwHtkjPMqdrRdmQ2UIDoNolR1hxsr69kmAgP++VNdU4AVCWYZPN2GqbmV9gWPvm8JqFaqaG+UnSt9YXdn9tMImlS7+WM=
+  on:
+    tags: true
+    repo: alexeybondarenko/schema-model
